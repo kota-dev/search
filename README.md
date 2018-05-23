@@ -1,9 +1,9 @@
 ### search
-HOT PEPPER APIを利用した丸の内近辺の飲食店検索WEBサイト  
+ HOT PEPPER APIを利用した丸の内近辺の飲食店検索WEBサイト  
 
 ### Dependency
-Kotlin  
-Spring Boot  
+ Kotlin  
+ Spring Boot  
 
 ### Usage
 1. IntelliJ IDEAを起動  
