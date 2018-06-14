@@ -19,13 +19,13 @@
     <table border="1">
         <tr th:each="task : ${resultText}">
             <td>
-                <a th:href="${task.urls.pc}" target="_blank">
-                    <p th:text="${task.name}"></p>
+                <a th:href="${task.value.urls.pc}" target="_blank">
+                    <p th:text="${task.value.name}"></p>
                 </a>
             </td>
-            <td th:text="${task.address}"></td>
-            <td th:text="${task.mobile_access}"></td>
-            <td th:text="${task.open}"></td>
+            <td th:text="${task.value.address}"></td>
+            <td th:text="${task.value.mobile_access}"></td>
+            <td th:text="${task.value.open}"></td>
     </table>
 
 </form>
